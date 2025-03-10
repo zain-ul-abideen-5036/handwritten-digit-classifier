@@ -109,3 +109,9 @@ handwritten-digit-classifier/
 └── templates/                                      - Frontend templates
    └── index.html                                   - Main interface
 ```
+
+---
+
+## Contact
+For questions or feedback, contact: abideen5036@gmail.com
+---
