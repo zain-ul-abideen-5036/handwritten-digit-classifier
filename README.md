@@ -99,12 +99,13 @@ curl -X POST -F "file=@digit.png" http://localhost:5000/predict
 
 ## Project Structure
 ```
-├── app.py                 - Flask application entry point
-├── train.ipnyb            - Model training script
-├── mnist_model.h5         - Pretrained model weights
-├── requirements.txt       - Dependency list
-├── README.md              - Project documentation
+handwritten-digit-classifier/
+├── app.py                                          - Flask application entry point
+├── HandwrittenDigitClassification.ipnyb            - Model training script
+├── mnist_model.h5                                  - Pretrained model weights
+├── requirements.txt                                - Dependency list
+├── README.md                                       - Project documentation
 │
-└── templates/             - Frontend templates
-   └── index.html         - Main interface
+└── templates/                                      - Frontend templates
+   └── index.html                                   - Main interface
 ```
