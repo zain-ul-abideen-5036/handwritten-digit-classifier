@@ -1,10 +1,11 @@
 # Handwritten Digit Classification System
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange)
-![Flask](https://img.shields.io/badge/Flask-2.0%2B-lightgrey)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-brightgreen)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange)
+![Flask](https://img.shields.io/badge/Flask-2.0%2B-lightgrey)
+
 
 A complete end-to-end system for classifying handwritten digits using deep learning, featuring a web-based interface and REST API.
 ---
@@ -36,7 +37,6 @@ Achieves 97.5%+ accuracy on test data while maintaining real-time prediction cap
 - Data Preprocessing Utilities
 - REST API Endpoints
 - Web Interface with Canvas Drawing
-- Cross-Origin Resource Sharing (CORS) Support
 - Error Handling and Input Validation
 
 ### User Features
@@ -62,12 +62,6 @@ git clone https://github.com/zain-ul-abideen-5036/handwritten-digit-classifier.g
 cd handwritten-digit-classifier
 ```
 
-### Create virtual environment
-```
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
 ### Install dependencies
 ```
 pip install -r requirements.txt
@@ -77,9 +71,15 @@ pip install -r requirements.txt
 ## Usage
 
 ### Model Training
-```bash
-python train.py
+1. Run the Jupyter notebook:
 ```
+jupyter notebook notebooks/HandwrittenDigitClassification.ipnyb
+```
+2. Execute all cells to:
+    - Load and visualize data.
+    - Train the model.
+    - Generate plots.
+---
 
 ### Start Web Server
 ```bash
@@ -87,14 +87,6 @@ python app.py
 ```
 
 Access the web interface at ```http://localhost:5000```
-
-### API Endpoint
-```bash
-POST /predict
-Content-Type: multipart/form-data
-
-curl -X POST -F "file=@digit.png" http://localhost:5000/predict
-```
 ---
 
 ## Project Structure
