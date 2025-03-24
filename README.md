@@ -8,6 +8,7 @@
 
 
 A complete end-to-end system for classifying handwritten digits using deep learning, featuring a web-based interface and REST API.
+
 ---
 
 ## Table of Contents
@@ -28,6 +29,7 @@ This project implements a convolutional neural network (CNN) trained on the MNIS
 - Preprocessing pipeline
 
 Achieves 97.5%+ accuracy on test data while maintaining real-time prediction capabilities.
+
 ---
 
 ## Features
@@ -87,6 +89,7 @@ python app.py
 ```
 
 Access the web interface at ```http://localhost:5000```
+
 ---
 
 ## Project Structure
@@ -106,4 +109,5 @@ handwritten-digit-classifier/
 
 ## Contact
 For questions or feedback, contact: abideen5036@gmail.com
+
 ---
